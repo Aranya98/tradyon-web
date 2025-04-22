@@ -12,3 +12,4 @@ Technologies are used
 Next.js and Tailwind CSS
 
 Hosted Live project link(URL)
+https://harmonious-starship-a427a6.netlify.app/
