@@ -24,3 +24,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.scrollbar-green::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-green::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Optional: light track */
+}
+
+.scrollbar-green::-webkit-scrollbar-thumb {
+  background-color: #22c55e; /* Tailwind's green-500 */
+  border-radius: 8px;
+  border: 2px solid #f0f0f0;
+}
+
+/* Firefox */
+.scrollbar-green {
+  scrollbar-color: #22c55e #f0f0f0;
+  scrollbar-width: thin;
+}
